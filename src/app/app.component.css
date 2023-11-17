@@ -50,8 +50,8 @@
     .flex-item-left {
         border: 3px solid white;
         width: 60%;
-        height: 60%;
-        margin: 40px;
+        /* height: 80%; */
+        margin: 70px;
         border-radius: 20px;
         background-color: white;
         flex: 35%;
