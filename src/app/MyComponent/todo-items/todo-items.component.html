@@ -1,0 +1,5 @@
+<div class="div">
+    <input type="checkbox" (click)="onCheckboxClick(todo)" class="checkbox" [checked]="!todo.active">
+    <button [ngClass]="{'strike':!todo.active}" class="drop  " type="button">{{todo.title}}</button>
+    <fa-icon class="ico" [icon]="faX" (click)="onClick(todo)"></fa-icon>
+</div>

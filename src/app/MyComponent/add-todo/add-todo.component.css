@@ -1,0 +1,16 @@
+.inp {
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    color: rgb(92, 91, 91);
+}
+
+.btnn {
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 20px;
+    color: wheat;
+    font-weight: 600;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+}

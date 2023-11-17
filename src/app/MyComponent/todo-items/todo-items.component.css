@@ -1,0 +1,102 @@
+.form-check {
+    border-radius: 5px;
+}
+
+.div {
+    width: 98%;
+    margin-left: 5px;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+    accent-color: purple;
+}
+
+.ico {
+    margin-left: 10px;
+    /* padding-bottom: 25px; */
+    color: rgb(177, 177, 177);
+}
+
+.ico:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.drop {
+    width: 85%;
+    background-color: wheat;
+    border: 2px solid wheat;
+    height: 30px;
+    margin: 00px 0px 10px 10px;
+    line-height: 20px;
+}
+
+.strike {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 98%;
+    }
+    .drop {
+        width: 80%;
+    }
+}
+
+
+/* @media screen and (min-device-width: 800px) and (max-device-width: 950px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 98%;
+    }
+    .drop {
+        
+    }
+} */
+
+@media screen and (min-device-width: 300px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 98%;
+    }
+    .drop {
+        width: 78%;
+    }
+}
+
+@media screen and (min-device-width: 270px) and (max-device-width: 299px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 98%;
+    }
+    .drop {
+        width: 70%;
+    }
+}
+
+
+/* @media screen and (min-device-width: 350px) and (max-device-width: 650px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 98%;
+    }
+    .drop {
+        width: 78%;
+    }
+} */
+
+
+/* @media screen and (min-device-width: 400px) and (max-device-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
+    .div {
+        width: 95%;
+    }
+    .drop {
+        width: 85%;
+    }
+} */

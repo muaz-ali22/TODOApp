@@ -1,0 +1,128 @@
+    .navbar {
+        background-color: blueviolet;
+        height: 70px;
+    }
+    
+    .h1 {
+        color: wheat;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    
+    .btn {
+        border: 2px solid wheat;
+        color: wheat;
+    }
+    
+    .btn:hover {
+        background-color: wheat;
+        color: blueviolet;
+        font-weight: bolder;
+    }
+    
+    .text-center {
+        color: purple;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .body {
+        background-image: linear-gradient(to right, rgb(34, 8, 149), rgb(110, 4, 76));
+        width: 100%;
+    }
+    
+    footer {
+        background-color: wheat;
+        height: 70px;
+    }
+    
+    p {
+        color: rebeccapurple;
+        text-align: center;
+        height: 60px;
+        line-height: 70px;
+        font-size: 20px;
+    }
+    
+    .flex-item-left {
+        border: 3px solid white;
+        width: 60%;
+        height: 60%;
+        margin: 40px;
+        border-radius: 20px;
+        background-color: white;
+        flex: 35%;
+        padding: 10px;
+    }
+    
+    .flex-item-right {
+        flex: 50%;
+        padding: 10px;
+    }
+    
+    @media screen and (min-device-width: 950px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+        .flex-container {
+            flex-direction: row;
+        }
+        .flex-item-left {
+            border: 3px solid white;
+            /* width: 60%; */
+            height: 350px;
+            margin-left: 5%;
+            border-radius: 15px;
+            flex: 45%;
+            background-color: white;
+        }
+        .flex-item-right {
+            flex: 45%;
+            padding: 10px;
+        }
+    }
+    
+    @media screen and (min-device-width: 800px) and (max-device-width: 950px) and (-webkit-min-device-pixel-ratio: 1) {
+        .flex-container {
+            flex-direction: row;
+        }
+        .flex-item-left {
+            border: 3px solid white;
+            /* width: 60%; */
+            height: 350px;
+            margin-left: 5%;
+            border-radius: 15px;
+            flex: 40%;
+            background-color: white;
+        }
+        .flex-item-right {
+            flex: 55%;
+        }
+    }
+    
+    @media screen and (min-device-width: 280px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 1) {
+        .flex-container {
+            flex-direction: column;
+        }
+        .flex-item-left {
+            border: 3px solid white;
+            width: 90%;
+            height: 469px;
+            margin-left: 5%;
+            flex: 95%;
+            border-radius: 15px;
+            background-color: white;
+        }
+        .flex-item-right {
+            flex: 95%;
+            width: 90%;
+        }
+    }
+    
+    @media screen and (min-device-width: 200px) and (max-device-width:299px) and (-webkit-min-device-pixel-ratio: 1) {
+        p {
+            height: 40px;
+            line-height: 70px;
+            font-size: 16px;
+        }
+    }
